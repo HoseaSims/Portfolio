@@ -14,7 +14,7 @@ background-size: 100%;
 
 a{
     text-decoration: none;
-    color: #F8F7FF;
+    color: black;
 }
 
 .section{
@@ -26,9 +26,9 @@ a{
     
     
     align-items: center;
-    color: #554971;
+    color: black;
     margin: 30px 50px 0 30px;
-    
+    background-color: #DEE5E5;
 }
 
 
