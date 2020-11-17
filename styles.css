@@ -1,100 +1,91 @@
-body{
-background-image: url("img/samuel-ferrara-dKJXkKCF2D8-unsplash.jpg");
-background-repeat: no-repeat;
-background-size: 100%;
-    color: #F8F7FF;
-    text-align: center;
-    font-size: 1rem;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    
-
+body {
+  background-image: url("img/samuel-ferrara-dKJXkKCF2D8-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #f8f7ff;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  animation: fadeIn 3s;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.section{
-    /*height: 320px;*/
+.card {
+  align-items: center;
+  color: black;
+  margin: 30px 50px 0 30px;
+  background-color: #dee5e5;
 }
 
-.card{
-    /*box-shadow: 5px 5px  white;*/
-    
-    
-    align-items: center;
-    color: black;
-    margin: 30px 50px 0 30px;
-    background-color: #DEE5E5;
+.card-img {
+  width: 100%;
+}
+
+#home {
+  font-size: 1.7rem;
+
+  float: left;
+  width: 49%;
+}
+
+#skills {
+  font-size: 2rem;
+  float: right;
+  width: 50%;
+  padding-bottom: 84px;
+}
+
+#projects {
+  display: inline-flex;
+  align-items: center;
+}
+
+#contact {
+  margin-top: 3%;
+  height: 100%;
+}
+
+li {
+  display: inline;
+  padding-left: 10px;
+  font-size: 1.5rem;
+}
+
+li:hover {
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  color: black;
+  background-color: #2196f3;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skill-icons {
+  font-size: 4rem;
+  margin-left: 15px;
+  color: white;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.contact-icons:hover{
+    color: orange;
 }
 
 
-
-.card-img{
-    width: 100%;
-}
-
-
-
-#home{
-    font-size: 1.7rem;
-    
-    float: left;
-    width: 49%;
-}
-
-#skills{
-    
-    font-size: 2rem;
-    float: right;
-    width: 50%;
-    padding-bottom: 84px;
-}
-
-#projects{
-    
-    
-    display: inline-flex;
-    align-items: center;
-}
-
-
-#contact{
-margin-top: 3%;
-height: 100%;
-
-}
-
-
-
-
-li{
-   display: inline;
-   padding-left: 10px;
-    font-size: 1.5rem;
-    
-}
-
-li:hover{
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3 ;
-    color: black;
-    background-color: #2196f3;
-}
-
-ul
-{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.skill-icons{
-    font-size: 4rem;
-    margin-left: 15px;
-    color: white;
-}
-
-  
